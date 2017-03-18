@@ -1,3 +1,9 @@
+## About this fork
+
+This project is a fork of https://github.com/BurntSushi/toml relicensed under the Apache 2 license, for use in containerd. The original project uses the WTFPL license, which is not OSI approved. When giving [containerd to CNCF](https://blog.docker.com/2017/03/docker-donates-containerd-to-cncf/) we [need an OSI approved license](https://github.com/cncf/toc/pull/32#pullrequestreview-27665520). [BurntSushi won't change the license on his project](https://github.com/BurntSushi/toml/issues/165). Since the [WTFPL license lets you relicense a project](http://www.wtfpl.net/faq/) `The WTFPL lets you relicense the work under any other license.` I will maintain a fork of the BurntSushi/toml project with only the license file and the README changed.
+
+Thank you @BurntSushi and the BurntSushi/toml community for this excellent project.
+
 ## TOML parser and encoder for Go with reflection
 
 TOML stands for Tom's Obvious, Minimal Language. This Go package provides a
